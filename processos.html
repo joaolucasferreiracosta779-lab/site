@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Processos & Resultados — Estúdio Roseane Santos</title>
+<meta name="description" content="Veja antes e depois dos nossos procedimentos: progressiva, coloração, hidratação e transformações.">
+<meta property="og:title" content="Processos & Resultados — Estúdio Roseane Santos">
+<meta property="og:description" content="Veja antes e depois dos nossos procedimentos: progressiva, coloração, hidratação e transformações.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- HEADER -->
+<header class="header">
+  <div class="container nav">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">Estúdio Roseane Santos</span>
+      <span class="logo-sub">Beauty Studio</span>
+    </a>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="combos.html">Combos</a></li>
+        <li><a href="processos.html">Processos</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="cart-btn" onclick="openCart()" aria-label="Carrinho">🛍<span class="cart-count">0</span></button>
+      <button class="btn btn-primary" onclick="waOpen()">Agendar Agora</button>
+      <button class="menu-toggle" onclick="document.querySelector('.menu').classList.toggle('open')">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Antes & Depois</span>
+    <h1>Processos & Resultados</h1>
+    <p>Veja a transformação que nossos procedimentos proporcionam.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a> · Processos</div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="process-grid">
+    <article class="process-card reveal">
+      <div class="process-imgs"><div><img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=600" loading="lazy" alt="Antes"><span class="tag">Antes</span></div><div><img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600" loading="lazy" alt="Depois"><span class="tag">Depois</span></div></div>
+      <div class="process-body">
+        <h3>Progressiva</h3>
+        <p>Fios disciplinados, alinhados e com muito brilho.</p>
+        <div class="process-meta"><span>⏱ <strong>2h30</strong></span></div>
+        <p style="font-size:13px"><strong style="color:var(--gold)">Benefícios:</strong> Brilho intenso, alinhamento, frizz controlado</p>
+        <p style="font-size:13px;margin-bottom:18px"><strong style="color:var(--gold)">Pós-cuidado:</strong> Lavar após 72h com shampoo sem sal.</p>
+        <button class="btn btn-gold-outline" style="width:100%;justify-content:center" onclick="waOpen('Olá Roseane! Quero saber mais sobre o procedimento de Progressiva.')">Ver Detalhes</button>
+      </div>
+    </article>
+    <article class="process-card reveal">
+      <div class="process-imgs"><div><img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600" loading="lazy" alt="Antes"><span class="tag">Antes</span></div><div><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600" loading="lazy" alt="Depois"><span class="tag">Depois</span></div></div>
+      <div class="process-body">
+        <h3>Coloração</h3>
+        <p>Cores vibrantes com acabamento profissional.</p>
+        <div class="process-meta"><span>⏱ <strong>2h</strong></span></div>
+        <p style="font-size:13px"><strong style="color:var(--gold)">Benefícios:</strong> Cobertura total, cor uniforme, brilho</p>
+        <p style="font-size:13px;margin-bottom:18px"><strong style="color:var(--gold)">Pós-cuidado:</strong> Usar máscara matizadora 1x por semana.</p>
+        <button class="btn btn-gold-outline" style="width:100%;justify-content:center" onclick="waOpen('Olá Roseane! Quero saber mais sobre o procedimento de Coloração.')">Ver Detalhes</button>
+      </div>
+    </article>
+    <article class="process-card reveal">
+      <div class="process-imgs"><div><img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=600" loading="lazy" alt="Antes"><span class="tag">Antes</span></div><div><img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=600" loading="lazy" alt="Depois"><span class="tag">Depois</span></div></div>
+      <div class="process-body">
+        <h3>Hidratação</h3>
+        <p>Tratamento profundo para fios sedosos.</p>
+        <div class="process-meta"><span>⏱ <strong>1h</strong></span></div>
+        <p style="font-size:13px"><strong style="color:var(--gold)">Benefícios:</strong> Maciez, brilho, redução de quebra</p>
+        <p style="font-size:13px;margin-bottom:18px"><strong style="color:var(--gold)">Pós-cuidado:</strong> Repetir a cada 15 dias para manter resultado.</p>
+        <button class="btn btn-gold-outline" style="width:100%;justify-content:center" onclick="waOpen('Olá Roseane! Quero saber mais sobre o procedimento de Hidratação.')">Ver Detalhes</button>
+      </div>
+    </article>
+    <article class="process-card reveal">
+      <div class="process-imgs"><div><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600" loading="lazy" alt="Antes"><span class="tag">Antes</span></div><div><img src="https://images.unsplash.com/photo-1599387737046-d540a7bd0d23?w=600" loading="lazy" alt="Depois"><span class="tag">Depois</span></div></div>
+      <div class="process-body">
+        <h3>Transformação</h3>
+        <p>Mudança de visual completa com técnicas avançadas.</p>
+        <div class="process-meta"><span>⏱ <strong>3h+</strong></span></div>
+        <p style="font-size:13px"><strong style="color:var(--gold)">Benefícios:</strong> Novo visual, autoestima renovada</p>
+        <p style="font-size:13px;margin-bottom:18px"><strong style="color:var(--gold)">Pós-cuidado:</strong> Cuidados personalizados conforme orientação.</p>
+        <button class="btn btn-gold-outline" style="width:100%;justify-content:center" onclick="waOpen('Olá Roseane! Quero saber mais sobre o procedimento de Transformação.')">Ver Detalhes</button>
+      </div>
+    </article></div>
+    <div class="text-center" style="margin-top:60px;color:#777;font-size:13px">
+      <p>📸 Imagens ilustrativas — em breve fotos reais de nossos resultados.</p>
+    </div>
+  </div>
+</section>
+<!--FOOTER_START-->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo"><span class="logo-mark">Estúdio Roseane Santos</span><span class="logo-sub">Beauty Studio</span></div>
+        <p style="color:#888;font-size:14px;margin-top:16px;max-width:320px">Transformando beleza em autoestima — com atendimento humanizado e resultados reais.</p>
+        <div class="socials">
+          <a href="https://instagram.com/estudio.roseane" target="_blank" aria-label="Instagram">IG</a>
+          <a href="https://facebook.com/" target="_blank" aria-label="Facebook">f</a>
+          <a href="javascript:waOpen()" aria-label="WhatsApp">W</a>
+        </div>
+      </div>
+      <div>
+        <h5>Navegação</h5>
+        <ul><li><a href="index.html">Home</a></li><li><a href="servicos.html">Serviços</a></li><li><a href="combos.html">Combos</a></li><li><a href="processos.html">Processos</a></li><li><a href="galeria.html">Galeria</a></li><li><a href="contato.html">Contato</a></li></ul>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <ul><li>(35) 98452-8431</li><li>@estudio.roseane</li><li>Seg–Sáb · 9h às 19h</li></ul>
+      </div>
+      <div>
+        <h5>Agendamento</h5>
+        <p style="color:#aaa;font-size:14px;margin-bottom:14px">Garanta seu horário pelo WhatsApp.</p>
+        <button class="btn btn-gold-outline" onclick="waOpen()">Agendar</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Estúdio Roseane Santos · Site desenvolvido por <a href="https://wa.me/5535999858612" target="_blank">João Lucas</a> · (35) 99985-8612
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="javascript:waOpen()" class="float-wa" aria-label="WhatsApp">♥</a>
+
+<!-- CART DRAWER -->
+<div class="cart-overlay" id="cart-overlay" onclick="closeCart()"></div>
+<aside class="cart-drawer" id="cart-drawer">
+  <div class="cart-head"><h3>Seu Carrinho</h3><button class="cart-close" onclick="closeCart()">×</button></div>
+  <div class="cart-items" id="cart-items"></div>
+  <div class="cart-foot">
+    <div class="cart-total"><span>Total</span><strong id="cart-total">R$ 0,00</strong></div>
+    <button class="btn btn-primary cart-checkout" onclick="openCheckout()">Finalizar Agendamento</button>
+  </div>
+</aside>
+
+<!-- CHECKOUT MODAL -->
+<div class="modal-overlay" id="modal-checkout">
+  <div class="modal">
+    <div class="modal-head">
+      <h3>Finalizar Agendamento</h3>
+      <p>Preencha seus dados — enviaremos sua solicitação pelo WhatsApp.</p>
+      <button class="modal-close" onclick="closeCheckout()">×</button>
+    </div>
+    <form class="modal-body" onsubmit="submitCheckout(event)">
+      <div class="summary-box">
+        <h5>Resumo do pedido</h5>
+        <div id="checkout-summary"></div>
+      </div>
+      <div class="form-group"><label>Nome completo</label><input type="text" name="nome" required></div>
+      <div class="form-row">
+        <div class="form-group"><label>Telefone</label><input type="tel" name="telefone" required placeholder="(35) 99999-9999"></div>
+        <div class="form-group"><label>Data desejada</label><input type="date" name="data" required></div>
+      </div>
+      <div class="form-group"><label>Horário desejado</label><input type="time" name="hora" required></div>
+      <div class="form-group"><label>Observações</label><textarea name="obs" rows="3" placeholder="Alguma preferência ou observação?"></textarea></div>
+      <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Enviar pelo WhatsApp</button>
+    </form>
+  </div>
+</div>
+<!--FOOTER_END--><script src="js/main.js"></script>
+
+</body>
+</html>
